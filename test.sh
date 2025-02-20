@@ -74,11 +74,11 @@ else
   exit 1
 fi
 
-if [ "$val8" == "3.8" ] ; then
+if [ "$val8" == "3.3" ] ; then
   echo "Pass: Output is correct"
 else
-  echo "Expected '3.8' but got: $val8"
-  echo "Make sure you are using float and rounding with 1 decimal"
+  echo "Expected '3.3' but got: $val8"
+  echo "Make sure you are using float and formatting with 1 decimal"
   exit 1
 fi
 
