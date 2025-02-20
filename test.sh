@@ -68,14 +68,14 @@ else
 fi
 
 if [ "$val7" == "326" ] ; then
-  echo "Pass: Output is correct"
+  echo "Pass: Sum was: $val7"
 else
   echo "Expected '326' but got: $val7"
   exit 1
 fi
 
 if [ "$val8" == "3.3" ] ; then
-  echo "Pass: Output is correct"
+  echo "Pass: Average was: $val8"
 else
   echo "Expected '3.3' but got: $val8"
   echo "Make sure you are using float and formatting with 1 decimal"
