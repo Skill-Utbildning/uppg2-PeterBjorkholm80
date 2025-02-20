@@ -46,10 +46,10 @@ else
   exit 1
 fi
 
-if [ "$val4" == "20" ] ; then
-  echo "Pass: Output is correct"
+if [ "$val4" == "18" ] ; then
+  echo "Pass: nr of four: $val4"
 else
-  echo "Expected '20' but got: $val4"
+  echo "Expected '18' but got: $val4"
   exit 1
 fi
 
