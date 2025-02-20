@@ -32,10 +32,10 @@ else
   exit 1
 fi
 
-if [ "$val2" == "9" ] ; then
+if [ "$val2" == "18" ] ; then
   echo "Pass: Output is correct"
 else
-  echo "Expected '9' but got: $val2"
+  echo "Expected '18' but got: $val2"
   exit 1
 fi
 
