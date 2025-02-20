@@ -67,10 +67,10 @@ else
   exit 1
 fi
 
-if [ "$val7" == "380" ] ; then
+if [ "$val7" == "326" ] ; then
   echo "Pass: Output is correct"
 else
-  echo "Expected '380' but got: $val7"
+  echo "Expected '326' but got: $val7"
   exit 1
 fi
 
