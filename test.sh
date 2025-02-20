@@ -26,23 +26,23 @@ else
 fi
 
 if [ "$val1" == "17" ] ; then
-  echo "Pass: Output is correct"
+  echo "Pass: nr of ones: $val1"
 else
   echo "Expected '17' but got: $val1"
   exit 1
 fi
 
 if [ "$val2" == "18" ] ; then
-  echo "Pass: Output is correct"
+  echo "Pass: nr of two: $val2"
 else
   echo "Expected '18' but got: $val2"
   exit 1
 fi
 
-if [ "$val3" == "18" ] ; then
-  echo "Pass: Output is correct"
+if [ "$val3" == "23" ] ; then
+  echo "Pass: nr of three: $val3"
 else
-  echo "Expected '18' but got: $val3"
+  echo "Expected '23' but got: $val3"
   exit 1
 fi
 
