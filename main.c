@@ -7,7 +7,7 @@ int main()
     srand(1);
 
     /* Solution */
-
+    //Let's try it
     // Create a variabel to store values
     int dice_rolls[100];
     for (int i = 0; i < 100; i++){
